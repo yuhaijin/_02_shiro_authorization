@@ -25,6 +25,7 @@ public class MyRealm extends AuthorizingRealm {
         Set<String> roles = new HashSet<String>();
         roles.add("role1");
         roles.add("role2");
+
         //根据角色列表查询数据库中对应的权限列表
         Set<String> permissions = new HashSet<String>();
         permissions.add("user:add");
